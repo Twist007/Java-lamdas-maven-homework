@@ -14,14 +14,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XOucNutDDo3kpTPQuJAQAjQ9nH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lambdas-maven-homework/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/commons-collections4-4.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -51,6 +59,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,6 +75,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Notifications" timestamp="1581255443845">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581255443845" />
     <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1581253873791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -74,57 +87,65 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="150" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1580930163291" />
-    <state x="462" y="120" key="FileChooserDialogImpl" timestamp="1581240235687">
+    <state x="462" y="120" key="FileChooserDialogImpl" timestamp="1581255819635">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581240235687" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1581252972080">
+    <state x="462" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581255819635" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1581272244239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581252972080" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1581252972079">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581272244239" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1581272244239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581252972079" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1581252972079">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581272244239" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1581272244238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581252972079" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1581252972079">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581272244238" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1581272244239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581252972079" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1581252972080">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581272244239" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1581272223448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581252972080" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1581252972080">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581272223448" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1581272223448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581252972080" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1581252972080">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581272223448" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1581272223448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581252972080" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1581252972080">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581272223448" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1581272223448">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581252972080" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581272223448" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1581268062509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581268062509" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581267129208">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581267129208" />
     <state x="65" y="0" key="new project wizard" timestamp="1581181534699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581181534699" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581240224256">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581267267779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581240224256" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581267267779" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/fileReader/FileOperation.java</url>
-          <line>22</line>
+          <line>17</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

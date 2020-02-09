@@ -1,14 +1,9 @@
 package fileReader;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -29,27 +24,35 @@ public class FileOperation {
         for (Row row : sheet) {
             data.put(i, new ArrayList<String>());
             for (Cell cell : row) {
-                switch (cell.getCellTypeEnum()) {
+                switch (cell.getCellType()) {
                     case STRING:
-                        System.out.println("string");
+                        data.get(i).add(cell.getRichStringCellValue().getString());
                         break;
                     case NUMERIC:
-                        System.out.println("number");
+                        if (DateUtil.isCellDateFormatted(cell)) {
+                            data.get(i).add(cell.getDateCellValue() + "");
+                        } else {
+                            data.get(i).add(cell.getNumericCellValue() + "");
+                        }
                         break;
                     case BOOLEAN:
-                        System.out.println("boolen");
+                        data.get(i).add(cell.getBooleanCellValue() + "");
                         break;
                     case FORMULA:
-                        System.out.println("formula");
+                        data.get(i).add(cell.getCellFormula() + "");
                         break;
                     default:
-                        data.get(new Integer(i)).add(" ");
+                        data.get(i).add(" ");
                 }
             }
             i++;
         }
 
         return data;
+    }
+
+    public void writeExcelPoi() {
+        //:TODO
     }
 }
 
